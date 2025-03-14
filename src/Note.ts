@@ -21,6 +21,18 @@ class Note {
         return (this.data[index] = note) 
     }
 
+    get(index: number) { 
+        return this.data[index] 
+    }
+
+    getAll() { 
+        return this.data 
+    }
+
+    clear() { 
+        this.data = [] 
+    }
+
 }
 
 export const note = new Elysia({prefix: '/note'})
