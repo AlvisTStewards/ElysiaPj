@@ -23,6 +23,32 @@ class Note {
 
 }
 
+class somebullshit{
+    constructor(
+        public data: string[] = ['Hello From The Moon']
+      ) {}
+
+        add(note: string) { 
+            this.data.push(note) 
+    
+            return this.data 
+        }
+}
+
+// asihdklashdasdasdasasd
+// asdasdasdas
+// disableValidatorsasd
+// AsyncDisposableStackasdas
+// DataTransfersd
+// AsyncDisposableStackas
+// DataTransfersd
+// AsyncDisposableStackas
+// das
+// DataTransfersd
+// as
+// dasd
+
+
 export const note = new Elysia({prefix: '/note'})
     .decorate("Note", new Note())
     .guard(
