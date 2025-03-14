@@ -1,4 +1,3 @@
-import { disableValidators } from 'discord.js';
 import { Param } from './../node_modules/@scalar/types/dist/external/httpsnippet-lite.d';
 import { Elysia, error, t } from "elysia";
 
@@ -23,19 +22,6 @@ class Note {
     }
 
 }
-
-// asihdklashdasdasdasasd
-// asdasdasdas
-// disableValidatorsasd
-// AsyncDisposableStackasdas
-// DataTransfersd
-// AsyncDisposableStackas
-// DataTransfersd
-// AsyncDisposableStackas
-// das
-// DataTransfersd
-// as
-// dasd
 
 export const note = new Elysia({prefix: '/note'})
     .decorate("Note", new Note())
