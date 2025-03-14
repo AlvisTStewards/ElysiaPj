@@ -8,8 +8,7 @@ class Note {
     ) {}
 
     add(note: string) { 
-        this.data.push(note) 
-
+        this.data.push(note)
         return this.data 
     }
 
